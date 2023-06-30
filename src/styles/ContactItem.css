@@ -1,0 +1,12 @@
+li{
+    list-style: none;    
+    border-bottom:2px solid black ;
+}
+span {
+    font-size: 2rem;
+}
+p {
+    padding: 12px;
+    border-top: 1px solid rgba(128, 128, 128, 0.753);
+    font-size: 1.7rem;
+}

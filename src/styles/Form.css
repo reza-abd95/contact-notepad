@@ -1,0 +1,55 @@
+input{
+    margin: 5px;
+    width: 300px;
+    height: 40px;
+    font-size: 1.7rem;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    padding: 1em;
+    background-color: #e6e6e6;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.384);
+    transition: 300ms ease-in-out;
+    
+}
+
+.search-box{
+    width: 400px;
+    margin: 20px 0 ;
+}
+.tel{
+    width: 200px;
+}
+
+button{
+    border: none;
+    width: 150px;
+    height: 40px;
+    color: #4cb31c;
+    margin-top: 20px ;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 12px;
+    box-shadow:  6px 6px 12px #c9c9c9,
+                 -6px -6px 12px #ffffff;
+    cursor: pointer;
+}
+button:active {
+    transform: scale(0.9);
+}
+
+
+@media  (max-width: 1000px) {
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tel{
+        width: 300px;
+    }
+    button{
+        
+    }
+}
