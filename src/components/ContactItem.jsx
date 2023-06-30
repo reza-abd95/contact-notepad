@@ -10,7 +10,7 @@ const ContactItem = ({name,number,searchTerm , mail}) => {
                 <p>
                     Name : 
                     <span> {name.slice(0,index)}</span>
-                    <span style={{backgroundColor:"yellow"}}>
+                    <span style={{backgroundColor:"#ff8000ac"}}>
                         {name.slice(index,index + searchTerm.length)}
                     </span>
                     <span>{name.slice(index + searchTerm.length)}</span>
